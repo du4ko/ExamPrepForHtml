@@ -1,0 +1,141 @@
+html, body, ul, li, div, p, a, h1, h2, h3, h4, h5, h6, section, aside, header, footer, fieldset, legend, input, label, button {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Helvetica;
+    background-color: #E9EAED;
+    font-size: 13px;
+
+}
+#wrapper{
+    padding: 10px;
+    width: 500px;
+    background-color: #FFFFFF;
+    border: 1px solid #DBDEE5;
+    height: 350px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#nakov{
+    display: inline-block;
+    width: 50px;
+    padding: 5px;
+
+}
+#nameNakov{
+    vertical-align: top;
+    padding-left: 10px;
+    display: inline-block;
+    width:200px;
+    height: 30px;
+}
+#divNakov{
+    display: inline-block;
+    width: 55px;
+}
+#facebookname{
+    color: #3B59B1;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+#planet{
+    display: inline-block;
+    text-align:left;
+    width: 50px;
+    position:absolute;
+    top:39px;
+    left:98px;
+    color: #9E97B7;
+}
+
+h2{
+    margin:0 0;
+}
+#softuni{
+    width: 90px;
+}
+#unknown{
+    width: 30px;
+}
+#biggest{
+    border: 1px solid #DBDEE5;
+    margin: 0px 10px;
+    height: 90px;
+}
+
+#best{
+    border-right: 1px solid #DBDEE5;
+    width: 90px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    height: 87px;
+    padding-left: 0px;
+}
+#picture{
+    padding-left: 0px;
+}
+#wtf{
+position: absolute;
+    top: 110px;
+    left: 140px;
+}
+#like{
+    padding-left: 0;
+    font-size: 12px;
+    color: #3B59B1;
+    padding:5px ;
+    height: 50px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+   border-top: 1px solid #DBDEE5;
+}
+#share{
+    float: right;
+    position: absolute;
+    top: 219px;
+    left: 457px;
+}
+#thesame{
+    width: 95%;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #3B59B1;
+    border-top: 1px solid #DBDEE5;
+    border-bottom: 1px solid #DBDEE5;
+    height: 28px;
+    padding-left:7px;
+    padding-top: 10px;
+}
+
+.black {
+    color: black;
+    height: 40px;
+
+}
+#comments{
+    font-size: 12px;
+    color: #3B59B1;
+    padding-top: 10px;
+}
+input{
+    font-size: 12px;
+    width: 90%;
+    height: 30px;
+    float: right
+;
+
+}
+#last{
+    width: 100%;
+   display: inline-block;
+}
+#photo{
+    position: absolute;
+    top: 345px;
+    left: 500px;
+}

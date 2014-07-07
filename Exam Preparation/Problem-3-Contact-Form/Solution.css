@@ -1,0 +1,73 @@
+@font-face{
+    font-family: 'Montserrat';
+    src:url(http://themes.googleusercontent.com/static/fonts/montserrat/v4/zhcz-_WihjSQC0oHJ9TCYBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+#wrapper{
+    display: block;
+    font-family:Montserrat;
+    width: 520px;
+    margin: 0 auto;
+}
+body{
+    background:url("background.jpg") no-repeat center center fixed;
+    background-size:cover;
+}
+
+form{
+    background-color:rgba(0,0,0,0.3);
+}
+input{
+    width:80%;
+     margin-left: 50px;
+     margin-right: 30px;
+    box-sizing:border-box;
+    margin-bottom: 20px;
+    height: 30px;
+}
+#name{
+    margin-top: 40px;
+    padding-left: 40px;
+}
+textarea{
+    width:72%;
+    margin-left: 50px;
+    height: 120px;
+}
+
+button{
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 45px;
+    color: #ffffff;
+    background-color: #3598DB;
+    border: 3px #ffffff solid;
+}
+
+#name {
+    background-image: url(name.svg);
+    background-size: 30px 30px;
+    background-position: 5px -2px;
+    background-repeat: no-repeat;
+}
+#email{
+    padding-left: 40px;
+    background-image: url(email.svg);
+    background-size: 30px 30px;
+    background-position: 5px -2px;
+    background-repeat: no-repeat;
+}
+#form{
+    padding-top: 10px;
+    padding-left: 40px;
+    background-image: url(comment.svg);
+    background-size: 30px 30px;
+    background-position: 5px 4px;
+    background-repeat: no-repeat;
+}
+button:hover{
+    background-color: #ffffff;
+    color:#3598DB;
+    border: #ffffff;
+}
